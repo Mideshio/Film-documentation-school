@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --panel-background-color: #fff;
+    --panel-border-color: #eee;
+    --panel-border-color-approved: rgba(0, 255, 0, 0.25);
+    --panel-border-color-declined: rgba(255, 0, 0, 0.25);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.banner {
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+table {
+    border-color: var(--panel-border-color);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.card {
+    border-color: var(--panel-border-color);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.script {
+    border-color: var(--panel-border-color);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+
+.table-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.paragraph {
+    font-family: 'Hind', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.profile {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--panel-background-color);
+    border-style: solid;
+    border-color: var(--panel-border-color);
+    border-width: 1px;
+    border-radius: 100%;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 0%;
+}
+
+.chip {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    width: fit-content;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--panel-background-color);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--panel-border-color);
+    border-radius: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.align-horizontally {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-horizontally-left {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.message {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 8px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--panel-background-color);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--panel-border-color);
+    border-radius: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.idea {
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--panel-background-color);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--panel-border-color);
+    border-radius: 32px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.idea.approved {
+    border-color: var(--panel-border-color-approved);
+}
+
+.idea.declined {
+    border-color: var(--panel-border-color-declined);
+}
+
+.dark-icon {
+    filter: brightness(0%);
+    height: 16px;
+    width: 16px;
+    margin: auto;
+    padding-right: 8px;
+}
